@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CYBERIUMS - Join the Blockchain for Grown-ups</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  </head>
+  <body>
+
+<style>
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+media (min-width: 992px)
+.container {
+    width: 970px;
+}
+
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+</style>
+
+
+<div class="vertical-center">
+		<div class="container">
+			<div class="row" style="margin-bottom: 16px;">
+				<div class="col-lg-12">
+					<h1 style="text-align: center;"><i class="fa fa-bath" aria-hidden="true"></i> Donate to Cyberium Developers</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="input-group">
+						<input id="url" name="url" type="text" class="form-control" placeholder="Social network URL containing your Cyberium address...">
+						<span class="input-group-btn">
+							<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Give me Cim	<i class="fa fa-caret-down" aria-hidden="true"></i></button>
+			        <ul class="dropdown-menu dropdown-menu-right">
+			          <li><a style="text-align: center;" onclick="tier= 0 ; grecaptcha.execute()">10 Cims / 8 hours</a></li>
+			          <li><a style="text-align: center;" onclick="tier= 1 ; grecaptcha.execute()">50 Cims / 1 day</a></li>
+			          <li><a style="text-align: center;" onclick="tier= 2 ; grecaptcha.execute()">200 Cims / 3 days</a></li>
+			        </ul>
+						</span>
+					</div>
+					<div class="g-recaptcha" data-sitekey="6LeaRh0UAAAAAD5G5UXcFnftTNfnZ7Dk2eGNWWdb" data-callback="submit" data-size="invisible"></div>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 32px;">
+					<div class="col-lg-6 col-lg-offset-3">
+					<div class="panel panel-small panel-default">
+						<div class="panel-body" style="padding: 0; overflow: auto; max-height: 300px;">
+							<table id="requests" class="table table-condensed" style="margin: 0;"></table>
+						</div>
+						<div class="panel-footer">
+							<table style="width: 100%"><tr>
+								<td style="text-align: center;"><i class="fa fa-rss" aria-hidden="true"></i> <span id="peers"></span> peers</td>
+								<td style="text-align: center;"><i class="fa fa-database" aria-hidden="true"></i> <span id="block"></span> blocks</td>
+								<td style="text-align: center;"><i class="fa fa-heartbeat" aria-hidden="true"></i> <span id="funds"></span> Cyberiums</td>
+								<td style="text-align: center;"><i class="fa fa-university" aria-hidden="true"></i> <span id="funded"></span> funded</td>
+							</tr></table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 32px;">
+				<div class="col-lg-12">
+					<h3>How does this work?</h3>
+					<p>This Cyberium support channel opens once in a month. It helps running the developmental efforts.  Every month 50,000(Fifty thousand) tokens are released from developer's kitty to raise the needed capital. Cyberiums is a fully public and non-anonymous platform. Your investments will be public.
+             To prevent malicious actors from hoarding, only verified twitter accounts can obtain tokens, and only once in a month. The opportunity window is <a href="https://www.merriam-webster.com/dictionary/first%20come,%20first%20served">"first come first serve"</a>.
+            </p>
+					<dl class="dl-horizontal">
+						<dt style="width: auto; margin-left: 40px;"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 36px;"></i></dt>
+						<dd style="margin-left: 88px; margin-bottom: 10px;"></i> To donate via twitter, make a <a href="https://twitter.com/intent/tweet?text=Supporting%20Cyberiums%20for%20tokens%20by%20donating%20through%20Ethereum%20payment%200x0000000000000000000000000000000000000000%20for%20the%20%23Main%20%23Cyberium%20network%20at%20Cyberium%20address%201x0000000000000000000000000000000000000000." target="_about:blank">tweet</a>
+              with your Ethereum payment address and Cyberium address pasted into the contents (surrounding text doesn't matter).<br/>Copy-paste the <a href="https://support.twitter.com/articles/80586" target="_about:blank">tweets URL</a> into the above input box and fire away!</dd>
+            <dd>If the monthly goal is reached before your payment processing, donation amount will be returned</dd>
+            <dd>Send Ethereums to 0x0000000000000000000000000000000000000000</dd>
+            <dd>Current Month Goal: <b>Reached</b> for 00 ETH</dd>
+            <dd>Next Goal Opens on <b>1st August 2019 00:00 UTC</b> </dd>
+            <!--
+  						<dt style="width: auto; margin-left: 40px;"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 36px;"></i></dt>
+  						<dd style="margin-left: 88px; margin-bottom: 10px;"></i> To request funds via Facebook, publish a new <strong>public</strong> post with your Cyberium address embedded into the content (surrounding text doesn't matter).<br/>Copy-paste the <a href="https://www.facebook.com/help/community/question/?id=282662498552845" target="_about:blank">posts URL</a> into the above input box and fire away!</dd>
+            -->
+
+					</dl>
+					<p>You can track the current pending requests below the input field to see how much you have to wait until your turn comes.</p>
+					<em>The faucet is running invisible reCaptcha protection against bots.</em>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <div>
+
+
+    <div style="position:absolute; top:0; left:0; width:30vw; padding:0.4em;">
+      <h1>Welcome to <b style="color:#c00000">Cyberiums</b> </h1> Cyber Blockchain for Grown-ups
+      /<a href="/">Home</a>
+    </div>
+
+    <br/>
+    <div style="position:absolute; bottom:0; right:0; width:100vw; padding:0.4em;">
+      <img height="70" src="/img/signage-bar.png"/>
+      (Standard libraries used from Cyberium, Bitcoin and some other hybrid DAG repos), Copyrights, All Rights Reserved, 2019
+    </div>
+
+  </div>
+
+
+  </body>
+</html>
